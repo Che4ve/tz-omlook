@@ -1,0 +1,21 @@
+{
+  "homepage": "https://github.com/Che4ve/tz-omlook",
+  "name": "tz-omlook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server index.js",
+    "deploy": "gh-pages -d src",
+    "sass": "sass --watch src/styles/style.scss:src/styles/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "lite-server": "^2.6.1",
+    "sass": "^1.81.0",
+    "vite": "^6.0.2"
+  }
+}
