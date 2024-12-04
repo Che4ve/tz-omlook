@@ -11,7 +11,7 @@ export class ProgressBlock extends HTMLElement {
 
     connectedCallback() {
         this.innerHTML = `
-            <link rel="stylesheet" href="/styles/progressBlock.css">
+            <link rel="stylesheet" href="styles/progressBlock.css">
             <div class="progress-container" id="progress-container">
                 <div class="progress" id="progress">
                     <svg class="progress__svg" fill="none" xmlns="http://www.w3.org/2000/svg">
